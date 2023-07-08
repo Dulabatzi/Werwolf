@@ -1,0 +1,116 @@
+/* style.css */
+
+body {
+    background-color: #1a1a1a;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    text-align: center;
+  }
+
+  h2 {
+    font-size: 50px;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+
+  h3{
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+
+  button {
+  display: block;
+  width: 200px;
+  margin-bottom: 10px;
+  padding: 10px;
+  font-size: 16px;
+  justify-content: center;
+}
+
+button.selected{
+    background-color: brown;
+}
+
+
+  button:not(:disabled):hover {
+    background-color: darkred;
+    color: white;
+  }
+  
+
+  input {
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+  }
+
+
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    text-align: center;
+  }
+
+
+  
+  label {
+    font-weight: bold;
+    margin-top: 50px;
+  }
+  
+  input[type="text"] {
+    margin-top: 10px;
+    background-color: #555555;
+    color: #ffffff;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 3px;
+  }
+  
+  p {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    cursor: default;
+  }
+
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+  }
+  
+  th,
+  td {
+    padding: 8px;
+    border-bottom: 1px solid #ccc;
+    text-align: left;
+  }
+  .role-name {
+    margin-right: 10px;
+  }
+  
+
